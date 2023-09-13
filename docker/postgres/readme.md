@@ -16,7 +16,7 @@ docker-compose up -d
 url localhost:8000 pgmyadmin.
 In the compose.yml file
 - PGADMIN_DEFAULT_EMAIL
-- PGADMIN_DEFAULT_PASSWORD
+- PGADMIN_DEFAULT_PASSWORD　　
 is the initial login information for pgadmin4.
 It can be rewritten and used as desired.
 
