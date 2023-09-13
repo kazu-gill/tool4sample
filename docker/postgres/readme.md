@@ -14,5 +14,9 @@ docker-compose up -d
 ```
 ## connect
 url localhost:8000 pgmyadmin.
-Enter the contents of the .env file into the "Create a new server" field.
+In the compose.yml file
+- PGADMIN_DEFAULT_EMAIL
+- PGADMIN_DEFAULT_PASSWORD
+is the initial login information for pgadmin4.
+It can be rewritten and used as desired.
 
